@@ -1,8 +1,9 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 #ifndef BASIC_TYPES
 #define BASIC_TYPES
 
 #include <math.h>
-#include <QtGui>
+#include <QtWidgets>
 #include <string>
 #include <sstream>
 

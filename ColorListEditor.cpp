@@ -1,9 +1,10 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 /****************************************************************************
 * Skittle Author's Note:  ColorListEditor is copied directly from the 
 * Qt Demo library > Itemviews > Color Editor Factory Example.
 * It is provided Open Source along with the rest of Skittle Genome Visualizer.
 ****************************************************************************/
-#include <QtGui>
+#include <QtWidgets>
 
 #include <stdlib.h>
 #include <ctime>
@@ -26,7 +27,7 @@ ColorListEditor::ColorListEditor(QWidget *widget) : QComboBox(widget)
 
 QColor ColorListEditor::color() const
 {
-    return qVariantValue<QColor>(itemData(currentIndex(), Qt::WhatsThisRole));
+    return itemData(currentIndex()).value<QColor>();
 }
 
 void ColorListEditor::setColor(QColor color)

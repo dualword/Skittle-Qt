@@ -1,5 +1,5 @@
-
-#include <QtGui>
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
+#include <QtWidgets>
 #include <QtOpenGL>
 #include <QBitmap>
 #if defined(Q_WS_MAC)

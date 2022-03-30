@@ -1,3 +1,4 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 #include "HighlightDisplay.h"
 #include "glwidget.h"
 #include "SequenceEntry.h"
@@ -5,9 +6,9 @@
 #include <sstream>
 #include <algorithm>
 #include <fstream>
-#include <QtGui/QScrollArea>
-#include <QtGui/QSpinBox>
-#include <QtGui/QGridLayout>
+#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QSpinBox>
+#include <QtWidgets/QGridLayout>
 
 using std::ifstream;
 

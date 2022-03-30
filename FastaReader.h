@@ -1,3 +1,4 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 #ifndef GEN_READER
 #define GEN_READER
 
@@ -8,7 +9,7 @@
 #include <vector>
 #include <QObject>
 
-#include <QtGui>
+#include <QtWidgets>
 #include <QRunnable>
 #include <qtconcurrentrun.h>
 #include <QApplication>

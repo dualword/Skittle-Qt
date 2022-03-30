@@ -1,7 +1,8 @@
-#include <QtGui>
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
+#include <QtWidgets>
 #include <QScrollArea>
-#include <QtGui/QScrollBar>
-#include <QtGui/QCheckBox>
+#include <QtWidgets/QScrollBar>
+#include <QtWidgets/QCheckBox>
 #include <QtCore/QProcess>
 #include <QtCore/QStringList>
 

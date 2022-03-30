@@ -1,4 +1,5 @@
-#include <QtGui>
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
+#include <QtWidgets>
 #include "GtfReader.h"
 #include "NucleotideDisplay.h"
 #include "BasicTypes.h"

@@ -1,6 +1,7 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 #include "SequenceEntry.h"
-#include <QtGui/QPushButton>
-#include <QtGui/QLineEdit>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QLineEdit>
 
 /** ***************************************
 SequenceEntry is a minor helper class used exclusively by HighlightDisplay.

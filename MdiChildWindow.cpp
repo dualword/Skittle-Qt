@@ -1,6 +1,7 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 #include "MdiChildWindow.h"
 #include "glwidget.h"
-#include <QtGui/QTabWidget>
+#include <QtWidgets/QTabWidget>
 #include <algorithm>
 
 using std::find;
@@ -34,7 +35,7 @@ MdiChildWindow::MdiChildWindow(QTabWidget *settings)//TODO: use offsetDialIndex 
     horizontalScrollBar->setSingleStep(10);
     verticalScrollBar = new QScrollBar();
     verticalScrollBar->setMaximum( 100 );
-    verticalScrollBar->setTracking(FALSE);
+    verticalScrollBar->setTracking(0);
 
     setMouseTracking(true);
     setFocusPolicy(Qt::ClickFocus);

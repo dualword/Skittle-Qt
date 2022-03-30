@@ -1,3 +1,4 @@
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
 //ViewManager.cpp
 #include "ViewManager.h"
 #include "glwidget.h"
@@ -5,7 +6,7 @@
 #include "GtfReader.h"
 #include "MainWindow.h"
 #include "MdiChildWindow.h"
-#include <QtGui/QScrollBar>
+#include <QtWidgets/QScrollBar>
 #include <algorithm>
 
 /** *******************************************

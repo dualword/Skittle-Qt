@@ -3,15 +3,14 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = skittle
 FORMS = BookmarkDialog.ui
 RESOURCES = resources.qrc
 DEPENDPATH += .
 LIBS += 
 INCLUDEPATH += .
-QT           += opengl
+QT += widgets concurrent opengl
 QMAKE_CXXFLAGS += -O3
-
 
 macx:ICON = skittle.icns
 macx:QMAKE_INFO_PLIST = Info.plist
@@ -39,9 +38,10 @@ HEADERS += AbstractGraph.h \
            TextureCanvas.h \
            ViewManager.h \
            UiVariables.h \ 
-    BiasDisplay.h \
-    UtilDrawBar.h \
-    SkittleUtil.h
+           BiasDisplay.h \
+           UtilDrawBar.h \
+           SkittleUtil.h
+    
 SOURCES += AbstractGraph.cpp \
            RepeatOverviewDisplay.cpp \
            AnnotationDisplay.cpp \
@@ -62,5 +62,9 @@ SOURCES += AbstractGraph.cpp \
            TextureCanvas.cpp \
            UiVariables.cpp \
            ViewManager.cpp \
-    BiasDisplay.cpp \
-    UtilDrawBar.cpp
+           BiasDisplay.cpp \
+           UtilDrawBar.cpp
+    
+OBJECTS_DIR = .build/obj
+MOC_DIR     = .build/moc
+RCC_DIR     = .build/rcc

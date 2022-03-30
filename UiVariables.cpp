@@ -1,5 +1,6 @@
-#include <QtGui/QTextEdit>
-#include <QtGui/QSpinBox>
+/* Skittle-Qt (2022) http://github.com/dualword/Skittle-Qt License:GNU GPL*/
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QSpinBox>
 #include <QString>
 #include <sstream>
 #include <algorithm>

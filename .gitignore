@@ -24,6 +24,10 @@ local.properties
 .classpath
 .settings/
 .loadpath
+Makefile
+skittle
+.build
+.qmake.stash
 
 # External tool builders
 .externalToolBuilders/
